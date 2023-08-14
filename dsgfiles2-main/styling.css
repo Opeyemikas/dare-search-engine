@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(skyblue, aquamarine);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.searchbar{
+    background: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.searchbar input {
+    padding: 20px;
+    border-radius: 50px;
+    background: skyblue;
+    padding-right: 200px;
+    border: none;
+    font-size: 20px;
+}
+
+.searchbar button{
+    padding: 20px;
+    border-radius: 50px;
+    background: rgb(182, 211, 223);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.searchbar button:hover{
+    background: aquamarine;
+}
+
+.searchbar button:active{
+    background: lightskyblue;
+}
+.title {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+}
